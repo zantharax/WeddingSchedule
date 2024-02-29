@@ -1,0 +1,48 @@
+body {
+    font-family: 'Dancing Script', sans-serif;
+    background-color: #FCF9F2;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center; /* Center the content vertically */
+    text-align: center; /* Center the content horizontally */
+}
+
+h1 {
+    color: #333;
+    margin-bottom: 10px;
+}
+
+h2 {
+    color: #666;
+    margin-bottom: 20px;
+}
+
+.schedule {
+    list-style: none;
+    padding: 0;
+    margin: 0 auto; /* Center the schedule horizontally */
+    max-width: 800px;
+    text-align: left;
+}
+
+.schedule li {
+    font-family: 'Lato', sans-serif; /* Change font family for schedule items */
+    display: flex;
+    align-items: center;
+    margin-bottom: 15px;
+    font-size: 18px;
+    line-height: 1.5;
+    color: #333;
+}
+
+.schedule li .time {
+    font-weight: bold;
+    color: #B0C2AD;
+    min-width: 100px;
+    margin-right: 20px; /* Add some margin between time and description */
+}
