@@ -23,17 +23,18 @@ h2 {
 }
 
 .schedule {
+    font-family: Lato;
     list-style: none;
     padding: 0;
     margin: 0 auto; /* Center the schedule horizontally */
-    max-width: 800px;
+    max-width: 1000px;
     text-align: left;
 }
 
 .schedule li {
-    font-family: 'Lato', sans-serif; /* Change font family for schedule items */
     display: flex;
     align-items: center;
+    justify-content: space-between;
     margin-bottom: 15px;
     font-size: 18px;
     line-height: 1.5;
@@ -42,7 +43,13 @@ h2 {
 
 .schedule li .time {
     font-weight: bold;
-    color: #B0C2AD;
+    color: #7f8b7d;
     min-width: 100px;
-    margin-right: 20px; /* Add some margin between time and description */
+    margin-right: 20px;
+}
+
+.schedule li .location {
+    color: #7f8b7d;
+    margin-left: 40px;
+    min-width: 100px; /* Ensures consistent width for location column */
 }
